@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: eclipse-store-ticket
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
