@@ -1,0 +1,16 @@
+{
+  "name": "eclipse-store-ticket",
+  "version": "1.0.0",
+  "description": "Sistema de tickets para Discord",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
